@@ -30,9 +30,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#style2-block2 {
+#style2-block1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 24px;
     background-color: #CAF0F8;
+}
+
+#style2-block2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+    background-color: #0096C7;
 }
