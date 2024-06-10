@@ -5,7 +5,7 @@
 
 #style1-block1 {
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 24px;
     background-color: #F4F482;
 
@@ -13,7 +13,7 @@
 
 #style2-block1 {
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 24px;
     background-color: #F85E00;
 }
