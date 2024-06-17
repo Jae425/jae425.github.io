@@ -54,8 +54,16 @@
     color: darkblue;
 }
 
+#data-left span {
+    color: red;
+}
 #data-right {
     display: inline-block;
+    color: blue;
+}
+
+#data-right span {
+    color: red;
 }
 
 #signature {
@@ -68,8 +76,14 @@
     width: 100%;
 }
 
+#donor-and-real-id {
+    text-align: center;
+    padding: 10%;
+}
+
 #donor {
     display: inline-block;
+    color: red;
 }
 
 #real-id {
