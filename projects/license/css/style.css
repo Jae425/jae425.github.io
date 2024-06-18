@@ -47,6 +47,7 @@
 
 #small-pic-container img {
     width: 20%;
+    display: inline-block;
 }
 
 #data-left {
