@@ -3,4 +3,24 @@
     margin: 0px auto;
     text-align: center;
     background-color: mediumpurple;
+    padding: 24px;
+}
+
+.container-m2 {
+    width: 25%;
+    margin-right: auto;
+    background-color: goldenrod;
+    padding: 24px;
+}
+
+.container-m3 {
+    width: 25%;
+    margin: 0px auto;
+    background-color: limegreen;
+    padding: 24px;
+}
+
+.container-m2,
+.container-m3 {
+    display: inline-block
 }
