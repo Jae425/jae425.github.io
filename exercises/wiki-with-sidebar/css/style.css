@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: honeydew;
+    width: 250px;
+    padding: 24px;
+}
+
+#main-content {
+    flex: 1;
+    padding: 48px;
+}
+
+#data-fields-1,
+#box-art-pic {
+    display: inline-block;
+}
