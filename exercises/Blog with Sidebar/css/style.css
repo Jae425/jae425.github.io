@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 #grid-layout {
@@ -20,7 +20,7 @@ body {
 }
 
 #sidebar-content h2 {
-    background-color: darkslategray;
+    background-color: brown;
     color: white;
     padding: 12px;
     font-size: 18px;
@@ -48,6 +48,7 @@ body {
     border-bottom: 0px;
 }
 #main-content {
+    background-color: pink;
     grid-area: content;
     padding: 0px 36px;
 }
