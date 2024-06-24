@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    display: grid;
+    grid-template-columns: 250px 450px 25px;
+    grid-template-areas: "column1 column2 column3";
+    margin: 36px 0px;
+    display: inline-block;
+}
+
+.column-3 p {
+    color: aqua;
+}
