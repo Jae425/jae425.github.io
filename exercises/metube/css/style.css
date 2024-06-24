@@ -4,7 +4,9 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background: radial-gradient(at top left, blue, red);
 }
 
 #grid-layout {
@@ -49,7 +51,7 @@ body {
 
 #sidebar ul a {
     text-decoration: none;
-    color: #111111;
+    color: goldenrod;
     display: block;
     padding: 12px;
 }
@@ -77,7 +79,7 @@ body {
 
 .metube-item h4 a {
     text-decoration: none;
-    color: #111111;
+    color: goldenrod;
     display: block;
 }
 
