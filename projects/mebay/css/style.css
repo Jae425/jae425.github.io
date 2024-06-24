@@ -3,9 +3,25 @@ body {
     font-family: sans-serif;
 }
 
+#header #j {
+    color: black;
+}
+
+#header #b {
+    color: red;
+}
+
+#header #a {
+    color: blue;
+}
+
+#header #y {
+    color: green;
+}
+
 #layout {
     display: grid;
-    grid-template-columns: 250px 450px 25px;
+    grid-template-columns: 150px 250px 25px;
     grid-template-areas: "column1 column2 column3";
     margin: 36px 0px;
     display: inline-block;
