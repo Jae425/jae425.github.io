@@ -1,14 +1,20 @@
 body {
-    margin: 0px;
     font-family: sans-serif;
 }
 
+#header {
+    grid-area: h;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    background: radial-gradient(at left,black, white);
+}
 #header #j {
-    color: black;
+    color: yellow;
 }
 
 #header #b {
-    color: red;
+    color: crimson;
 }
 
 #header #a {
@@ -16,13 +22,93 @@ body {
 }
 
 #header #y {
-    color: green;
+    color: yellowgreen;
 }
 
 #layout {
     display: grid;
-    grid-template-columns: 150px 250px 25px;
-    grid-template-areas: "column1 column2 column3";
-    margin: 36px 0px;
-    display: inline-block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        ". h h h ."
+        ". c1 c2 c3 .";
+}
+
+#column-1 {
+    grid-area: c1;
+}
+
+#column-2 {
+    grid-area: c2;
+    margin-right: 30px;
+}
+
+#column-3 {
+    grid-area: c3;
+}
+
+#price {
+    font-size: x-large;
+}
+
+#container-1 {
+    display: flex;
+    grid-template-columns: 1fr 80px 1fr;
+    grid-template-areas: 
+        "c1 c2 c3";
+    align-items: center;
+}
+
+#quantity {
+    grid-area: c1;
+}
+
+#block {
+    border-radius: 8px;
+    background-color: goldenrod;
+    grid-area: c2;
+    padding: 8px;
+    width: 80px;
+    margin: 12px;
+}
+
+#last {
+    grid-area: c3;
+}
+
+#last b {
+    color: red;
+}
+
+#container-2 {
+   display: inline;
+   padding: 12px;
+   text-align: center;
+}
+
+#buy {
+    display: block;
+    border: 15px solid blue;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    grid-area: c1;
+    margin: 8px;
+}
+
+#cart {
+    display: block;
+    border: 15px solid blue;
+    border-radius: 20px;
+    color: blue;
+    grid-area: c2;
+    margin: 8px;
+}
+
+#watch {
+    display: block;
+    border: 15px solid blue;
+    border-radius: 20px;
+    color: blue;
+    grid-area: c3;
+    margin: 8px;
 }
