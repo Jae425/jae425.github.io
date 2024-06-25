@@ -27,7 +27,7 @@ body {
 
 #layout {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr  1fr;
     grid-template-areas: 
         ". h h h ."
         ". c1 c2 c3 .";
@@ -37,9 +37,18 @@ body {
     grid-area: c1;
 }
 
+#column-1 img {
+    display: block;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
 #column-2 {
     grid-area: c2;
     margin-right: 30px;
+    display: block;
+    border: 2px solid gray;
+    border-radius: 4px;
 }
 
 #column-3 {
