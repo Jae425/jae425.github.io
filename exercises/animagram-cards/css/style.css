@@ -23,10 +23,18 @@ body {
 }
 
 #section-2 .example-card {
-
+    padding: 24px;
+    margin: 16px;
 }
 
 .animagram-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.anigram-header {
     display: flex;
     justify-content: space-between;
     margin: 30px;
