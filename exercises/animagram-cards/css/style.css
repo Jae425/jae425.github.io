@@ -27,6 +27,26 @@ body {
     margin: 16px;
 }
 
+.card-style-2 {
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+
+.card-style-2 img {
+    width: 100%;
+    padding: 48px;
+    border-radius: 100%;
+}
+
+.card-style-2 h2 {
+    margin: 24px;
+}
+
 .animagram-footer {
     display: flex;
     justify-content: space-between;
