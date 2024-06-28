@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: 
+        url("../images/chinese.png");
+        height: 80vh;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+}
+
+#hero-content a {
+    font-size: 5vw;
+    display: inline-block;
+    background-color: black;
+    color: red;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-2 {
+    background-image: 
+        url(../images/the-xenomorph-lore-art.jpg);
+        height: 80vh;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+}
