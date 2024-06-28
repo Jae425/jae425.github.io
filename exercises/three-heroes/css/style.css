@@ -31,12 +31,27 @@ body {
 #hero-2 {
     background-image: 
         url(../images/the-xenomorph-lore-art.jpg);
-        height: 80vh;
+        height: 100vh;
         background-size: cover;
         background-position: center center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-end;
+        position: relative;
 
 }
+
+#hero-2 h2 {
+    color: white;
+    font-size: 10vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-2 a {
+    font-size: 5vw;
+    display: inline-block;
+    background-color: black;
+    color: red;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
