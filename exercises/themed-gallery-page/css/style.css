@@ -5,17 +5,16 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: darkseagreen;
 }
 
 #hero-1 {
     background-image: 
         url("../images/alice-donovan-rouse-z9F_yK4Nmf8-unsplash.jpg");
-        background-position: center center;
+        height: 30vh;
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        max-width: 300px;
-        min-width: 100px;
 }
 
 #layout {
