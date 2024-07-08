@@ -69,3 +69,48 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-top .promo {
+    color: white;
+}
+
+#navbar-top .content2 p {
+    font-size: x-large;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar-top .cta-button {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, #881ee4, #85e215);
+}
+
+#navbar-bottom 
+.content-column, 
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
