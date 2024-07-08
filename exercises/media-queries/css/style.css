@@ -222,8 +222,8 @@ a {
     }
     .three-cards,
     .two-cards {
-        flex-wrap: wrap;
-        flex: 1;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 }
