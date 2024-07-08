@@ -220,5 +220,10 @@ a {
     #hero h1 {
         font-size: 30px;
     }
-
+    .three-cards,
+    .two-cards {
+        flex-wrap: wrap;
+        flex: 1;
+        align-items: center;
+    }
 }
