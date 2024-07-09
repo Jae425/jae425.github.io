@@ -218,8 +218,11 @@ a {
         align-items: center;
     }
     #hero h1 {
+        font-size: 60px;
+    }
+
+    #hero h3 {
         font-size: 30px;
-        margin: 0px;
     }
     .three-cards,
     .two-cards {
