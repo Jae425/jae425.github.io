@@ -76,7 +76,26 @@ body {
         margin-left: 120px
 }
 
+#hero-2 {
+    background-image: 
+        url("../images/Choc-green.JPG.webp");
+        height: 50vh;
+        width: 80vw;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 120px
+}
+
 .hero-container {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.hero-container2 {
+    color: #0dd354;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
