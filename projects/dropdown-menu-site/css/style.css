@@ -21,8 +21,10 @@ body {
     padding: 24px;
 }
 
-#navbar p {
+#navbar #logo {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: x-large;
     margin: 10px;
+    text-decoration: none;
+    color: black;
 }
