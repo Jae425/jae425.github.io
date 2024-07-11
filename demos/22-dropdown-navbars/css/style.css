@@ -5,11 +5,10 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background: linear-gradient(to bottom, #fab907, #674c02);
 }
 
 #navbar {
-    background: linear-gradient(to bottom, #fab907, #674c02);
+    background: linear-gradient(to bottom, #109cb8, #0e5b96);
     display: flex;
     align-items: center;
 }
@@ -22,7 +21,7 @@ body {
 }
 
 #navbar a:hover {
-    background: linear-gradient(to top, #fab907, #674c02);
+    background: linear-gradient(to top, #109cb8, #0e5b96);
 }
 
 #navbar #logo {
@@ -32,7 +31,6 @@ body {
     padding-top: 13px;
     padding-bottom: 12px;
 }
-
 
 .dropdown-container {
     position: relative;
@@ -52,7 +50,7 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: #171100;
+    background-color: darkslateblue;
     width: 100%;
     min-width: 200px;
 }
@@ -62,21 +60,6 @@ body {
     visibility: visible;
 }
 
-
-#hero-1 {
-    background-image: 
-        url("../images/choco.jpeg");
-        height: 50vh;
-        width: 80vw;
-        background-size: cover;
-        background-position: center center;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 120px
-}
-
-.hero-container {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#navbar .dropdown-menu a:hover {
+    background: slateblue;
 }
