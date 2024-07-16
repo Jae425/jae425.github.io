@@ -4,8 +4,6 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
-    background-color: black;
 }
 
 #navbar {
@@ -16,6 +14,9 @@ body {
 
 #navbar a {
     text-decoration: none;
+    font-family: "copperplate", serif;
+    font-weight: 300;
+    font-style: normal;
     color: black;
     padding: 24px;
 }
@@ -40,9 +41,46 @@ body {
     margin-right: 24px;
 }
 
+#hero-1 {
+    background-image: 
+    url("../images/jerkchicken.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+}
+
+#hero-1 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#hero-1 h2 {
+    font-size: 8vw;
+    font-family: "copperplate", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
 #footer {
     background: linear-gradient(to bottom, red, yellow, green);
-    color: black;
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 12px;
 }
 
@@ -51,3 +89,5 @@ body {
     margin: 0px auto;
     display: flex;
 }
+
+
