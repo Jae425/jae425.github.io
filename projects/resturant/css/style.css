@@ -90,4 +90,18 @@ body {
     display: flex;
 }
 
+.section {
+    background: radial-gradient(
+        at top left,
+        black,
+        white
+    );
+    padding: 48px;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
 
